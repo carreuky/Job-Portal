@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Jobs.css";
 import CreateJob from "../CreateJob/CreateJob";
+import JobList from  "../JobList/JobList";
+
 
 export default function Jobs() {
   //dispalying either jobform or jobs
@@ -44,7 +46,7 @@ SetDisp(!disp)
         </button>
       </div>
       {Search}
-      {disp ? <CreateJob/>:null}
+      {disp ? <CreateJob/>:<JobList/>}
     </div>
   );
 }
