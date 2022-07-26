@@ -21,9 +21,24 @@ display: flex;
     width: 250px;
     height: 230px;
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .Form{
     background-color: rgb(16, 15, 15);
 
+}
+.socials{
+    margin-top: 30px;
+    width: 250px;
+    margin-left: 200px;
+    padding-left: 10px;
+
+}
+.socials .fab{
+    color:blue;
+    padding:15px;
+    font-size: 28px;
+}
+.socials .fab:hover{
+    transform: scale(1.5);
 }

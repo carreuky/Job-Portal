@@ -2,11 +2,12 @@ import React from 'react'
 import "./Contacts.css";
 
 
+
+
 export default function Contacts() {
 
 const Contact=
 <div class="content py-3 w-75 text-white ">
-<div class="container ">
 	<div class="row">
 		  <div class="col-md-6 offset-md-3">
                     <div class="Form card border">
@@ -39,17 +40,24 @@ const Contact=
                 </div>
 	</div>
 </div>
-</div>
   return (
     <div className='Contacts p-5'>
       <div className='center  '><h1>CONTACT US</h1></div>
       <div className='Flex'>
+    <div>
       <div className='border mine w-70 p-3'>
         <p className='center '>Powered by industry-leading digital technology & a data-driven approach, we help employers across industries find the 
           best talent & job seekers, the perfect jobs with which they can fall in love.</p>
-      
+      </div>
+      <div className='border socials'>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-whatsapp"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-instagram"></i>
+      </div>
       </div>
       {Contact}
+
       </div>
       
     </div>
