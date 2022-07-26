@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+.Nav{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(6, 1, 1);
+    font-size: 21px;
+    color: blue;
+}
+.Nav ul li a:hover{
+border: 1px solid blue;
+color: white;
+background: none;
+}
+.Nav ul li a{
+background: none;
+}
