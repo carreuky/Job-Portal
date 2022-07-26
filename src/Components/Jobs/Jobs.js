@@ -1,14 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Jobs.css";
 import CreateJob from "../CreateJob/CreateJob";
 
 export default function Jobs() {
+  //dispalying either jobform or jobs
+const [disp ,SetDisp]=useState(false)
+
+function handleDisplay(){
+SetDisp(!disp)
+
+}
+
   const Search = (
     <div class="container m-3 ">
-    <div class="d-flex justify-content-center px-2 ">
-    <div class="form-group">
-    <input class="form-control text-white input-lg" id="inputlg"  placeholder="Search Job..."/>
-  </div>
+    <div class="d-flex justify-content-center text-center  ">
+    <div class="">
+            <form  class="form ">
+                <div class="d-inline">
+                <button onClick={handleDisplay} type="button" class="btn btn-primary">Create Job</button>
+
+                <input type="text" class="input-lg inpuS py-3" placeholder="Search" />
+                    <button type="submit" class="btnsearch "><i class="icon-search"></i></button>
+                </div>
+            </form>
+        </div>
     </div>
   </div>
 
@@ -29,7 +44,7 @@ export default function Jobs() {
         </button>
       </div>
       {Search}
-      <CreateJob/>
+      {disp ? <CreateJob/>:null}
     </div>
   );
 }
