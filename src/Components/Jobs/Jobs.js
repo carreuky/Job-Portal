@@ -19,7 +19,7 @@ SetDisp(!disp)
     <div class="">
             <form  class="form ">
                 <div class="d-inline">
-                <button onClick={handleDisplay} type="button" class="btn btn-primary">Create Job</button>
+                <button onClick={handleDisplay} type="button" class="btn btn-primary">{disp?'View Jobs':'Create Job'}</button>
 
                 <input type="text" class="input-lg inpuS py-3" placeholder="Search" />
                     <button type="submit" class="btnsearch "><i class="icon-search"></i></button>
