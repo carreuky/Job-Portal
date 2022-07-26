@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+.Jobs{
+    font-family: 'Nunito Sans', sans-serif;
+    background: rgb(16, 15, 15);
+    height: 95vh;
+    color: wheat;
+}
+#inputlg{
+    margin-left: 100px;
+    width: 250px;
+    border-radius: 20px;
+}
+.btn:hover , #inputlg{
+    outline:0px;
+    box-shadow: none;
+    border: none;
+
+}
+.btn{
+    border: none;
+    background-color: #D79922;
+}
