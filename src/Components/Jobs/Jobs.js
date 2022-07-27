@@ -18,7 +18,7 @@ SetDisp(!disp)
 
 function handleNew(newjob){
   console.log(newjob)
-  setJobs(...jobs, newjob)
+  setJobs([...jobs, newjob])
 }
 useEffect(() => {
   fetch("https://jbap.herokuapp.com/jobs")
@@ -61,7 +61,7 @@ useEffect(() => {
         </button>
       </div>
       {Search}
-      {disp ? <CreateJob handleNew={handleNew}/>:<JobList jobs={jobs} />}
+      {disp ? <CreateJob handleNew={handleNew} handleDisplay={handleDisplay}/>:<JobList jobs={jobs} />}
     </div>
   );
 }
