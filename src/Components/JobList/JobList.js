@@ -1,11 +1,15 @@
 import React from "react";
 import Card from "../Card/Card";
 
-export default function ({ jobs }) {
+export default function ({ jobs, handleDelete }) {
+
+
+  
   // console.log(jobs)
   const job = jobs.map((job) => {
     return (
       <Card
+        handleDelete={handleDelete}
         key={job.id}
         id={job.id}
         jobname={job.job_type}

@@ -2,13 +2,22 @@ import React from "react";
 import "./Card.css";
 
 export default function Card({
-  url,
   jobname,
   logo,
   company,
   location,
   salary,
+  handleDelete,
+  id,
 }) {
+  function handleDeleteClick() {
+    console.log(id);
+    fetch(`https://jbap.herokuapp.com/jobs/${id}`, {
+      method: "DELETE",
+    })
+      .then((r) => r.json())
+      .then(() => handleDelete(id));
+  }
   // console.log(salary)
 
   return (
@@ -35,9 +44,8 @@ export default function Card({
             {" "}
             <span className="text-dark">${salary}</span>
             <button
+              onClick={handleDeleteClick}
               className="btn btn-primary btn-sm active"
-              role="button"
-              aria-pressed="true"
             >
               Delete
             </button>

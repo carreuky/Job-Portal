@@ -20,6 +20,10 @@ function handleNew(newjob){
   console.log(newjob)
   setJobs([...jobs, newjob])
 }
+function deleteJob(id) {
+  const updatedJob = jobs.filter(job => job.id !== id)
+  setJobs(updatedJob)
+}
 useEffect(() => {
   fetch("https://jbap.herokuapp.com/jobs")
     .then((r) => r.json())
@@ -61,7 +65,7 @@ useEffect(() => {
         </button>
       </div>
       {Search}
-      {disp ? <CreateJob handleNew={handleNew} handleDisplay={handleDisplay}/>:<JobList jobs={jobs} />}
+      {disp ? <CreateJob handleNew={handleNew} handleDisplay={handleDisplay}/>:<JobList jobs={jobs} handleDelete={deleteJob}/>}
     </div>
   );
 }
