@@ -15,6 +15,8 @@ function handleDisplay(){
 SetDisp(!disp)
 
 }
+
+
 useEffect(() => {
   fetch("http://localhost:3000/jobs")
     .then((r) => r.json())
@@ -54,7 +56,7 @@ useEffect(() => {
         </button>
       </div>
       {Search}
-      {disp ? <CreateJob/>:<JobList jobs={jobs}/>}
+      {disp ? <CreateJob/>:<JobList jobs={jobs} />}
     </div>
   );
 }

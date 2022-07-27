@@ -1,54 +1,83 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./CreateJob.css";
 
 function CreateJob () {
-  function handleChange(event){
 
-    console.log([event.target.name], event.target.value)
+  const[job, setJob]=useState('')
+  const[url,setUrl]=useState('')
+  const[location,setLocation]=useState('')
+  const[salary, setSalary]=useState('')
+  const[company, setCompany]=useState('')
 
 
+
+
+  function handleJob(event){
+  setJob(event.target.value)
   }
+  function handleUrl(event){
+    setUrl(event.target.value)
+    }
+  
+  function handleSalary(event){
+    setSalary(event.target.value)
+    }
+
+    function handleLocation(event){
+      setLocation(event.target.value)
+      }
+    function handleCompany(event){
+        setCompany(event.target.value)
+        }
 
   function handleSubmit(e) {
     e.preventDefault();
-    // alert('')
-    // const itemData = {
-    //   name: name,
-    //   category: category,
-    //   isInCart: false,
-    // };
-    // fetch("http://localhost:4000/items", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(itemData),
-    // })
-    //   .then((r) => r.json())
-    //   .then((newItem) => console.log(newItem));
-  }
 
-const CreateJob=(
+    const newItem={
+      job_type:job,
+      company:company,
+      image:url,
+      salary:salary,
+      location:location
+    }
+
+    console.log(newItem)
+    fetch('http://localhost:3000/jobs', {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(newItem),
+  })
+    .then((r) => r.json())
+    .then((newjob) => {
+      console(newjob)
+    setJob('')
+    setUrl('')
+    setLocation('')
+    setCompany('')
+    setSalary('')
+    });
+  }
+   
+
+
+const CreateJobCard=(
     <div class="form-style-8" id="formDiv">
     <h2>Create A New Job Posting</h2>
     <form id="formClick" onSubmit={handleSubmit}>
-      <input onChange={handleChange} className='input-lg' type="text"  name="company" placeholder="Company Name"/>
-      <input onChange={handleChange} className='input-lg' type="text"  name="job" placeholder="Job Type"/>
-      <input onChange={handleChange} className='input-lg' type="url"  name="url" placeholder="Image url"/>
-      <input onChange={handleChange} className='input-lg' type="text"  name="location" placeholder="Location"/>
-      <input onChange={handleChange} className='input-lg' type="text"  name="salary" placeholder="Salary"/>
-
-
-    
-
-
+      <input onChange={handleCompany} className='input-lg' type="text"  name="company"  placeholder="Company Name"/>
+      <input onChange={handleJob} className='input-lg' type="text"  name="job" placeholder="Job Type"/>
+      <input onChange={handleUrl} className='input-lg' type="url"  name="url" placeholder="Image url"/>
+      <input onChange={handleLocation} className='input-lg' type="text"  name="location" placeholder="Location"/>
+      <input onChange={handleSalary} className='input-lg' type="text"  name="salary" placeholder="Salary"/>
       <input  type="submit" value="Submit" name="submit" id="submit" />
     </form>
   </div>
 )
   return (
     <div className='CreateJob'>
-        {CreateJob}
+        {CreateJobCard}
     </div>
   )
 }
