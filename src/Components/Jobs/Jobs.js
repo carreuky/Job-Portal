@@ -9,7 +9,7 @@ export default function Jobs() {
   //dispalying either jobform or jobs
 const [disp ,SetDisp]=useState(false)
 const [jobs, setJobs] = useState([]);
-console.log(jobs)
+// console.log(jobs)
 
 function handleDisplay(){
 SetDisp(!disp)

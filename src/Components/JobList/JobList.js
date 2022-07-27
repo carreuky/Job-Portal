@@ -3,11 +3,11 @@ import Card from '../Card/Card'
 
 export default function ({jobs}) {
 
-    console.log(jobs)
+    // console.log(jobs)
     const job=jobs.map((job)=>{
         return(
             <Card 
-            key={job.id}
+            id={job.id}
             jobname={job.job_type}
             logo={job.image}
             company={job.company}
