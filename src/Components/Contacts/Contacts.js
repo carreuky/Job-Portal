@@ -7,31 +7,31 @@ import "./Contacts.css";
 export default function Contacts() {
 
 const Contact=
-<div class="content py-3 w-75 text-white ">
-	<div class="row">
-		  <div class="col-md-6 offset-md-3">
-                    <div class="Form card border">
-                        <div class="card-body">
-                            <form class="form">
-                                    <label for="name2" class="mb-0">Name</label>
-                                    <div class="row mb-1">
-                                        <div class="col-lg-12">
-                                            <input type="text" name="name2" id="name2" class="form-control" required=""/>
+<div ClassName="content py-3 w-75 text-white ">
+	<div ClassName="row">
+		  <div ClassName="col-md-6 offset-md-3">
+                    <div ClassName="Form card border">
+                        <div ClassName="card-body">
+                            <form ClassName="form">
+                                    <label for="name2" ClassName="mb-0">Name</label>
+                                    <div ClassName="row mb-1">
+                                        <div ClassName="col-lg-12">
+                                            <input type="text" name="name2" id="name2" ClassName="form-control" required=""/>
                                         </div>
                                     </div>
-                                    <label for="email2" class="mb-0">Email</label>
-                                    <div class="row mb-1">
-                                        <div class="col-lg-12">
-                                            <input type="text" name="email2" id="email2" class="form-control" required=""/>
+                                    <label for="email2" ClassName="mb-0">Email</label>
+                                    <div ClassName="row mb-1">
+                                        <div ClassName="col-lg-12">
+                                            <input type="text" name="email2" id="email2" ClassName="form-control" required=""/>
                                         </div>
                                     </div>
-                                    <label for="message2" class="mb-0">Message</label>
-                                    <div class="row mb-1">
-                                        <div class="col-lg-12">
-                                            <textarea rows="6" name="message2" id="message2" class="form-control" required=""></textarea>
+                                    <label for="message2" ClassName="mb-0">Message</label>
+                                    <div ClassName="row mb-1">
+                                        <div ClassName="col-lg-12">
+                                            <textarea rows="6" name="message2" id="message2" ClassName="form-control" required=""></textarea>
                                         </div>
                                     </div>
-                                    <button class="btnk">Send Message</button>
+                                    <button ClassName="btnk">Send Message</button>
                               
                             </form>
                         </div>
