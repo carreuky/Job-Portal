@@ -7,11 +7,14 @@
       "company": "Google",
       "description": "Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology ",
       "location": "Nairobi",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "requirements": [
         "Ruby",
         "R",
         "Javascript"
-      ]
+      ],
+      "salary": "5,100"
+
     },
     {
       "id": 2,
@@ -20,11 +23,14 @@
       "company": "Eclectics International Ltd",
       "description": "We are looking for experienced backend developers to join our team and be a productive member of societu",
       "location": "Nairobi",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "requirements": [
         "node",
         "python",
         "Javascript"
-      ]
+      ],
+      "salary": "2,800"
+
     },
     {
       "id": 3,
@@ -33,12 +39,15 @@
       "company": "MSpace Solutions Ltd",
       "description": "MSpace Solutions Ltd is looking for a candidate to add to their Innovation Team as a Junior Java Web Application Developer",
       "location": "Nairobi",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "requirements": [
         "Ruby",
         "java",
         "Javascript",
         "python"
-      ]
+      ],
+      "salary": "3,300"
+
     },
     {
       "id": 4,
@@ -50,7 +59,9 @@
       "requirements": [
         "DotNet",
         "Javascript"
-      ]
+      ],
+      "salary": "3,500"
+
     },
     {
       "id": 5,
@@ -59,11 +70,14 @@
       "company": "e-MPS",
       "description": "We are an online e-commerce team which helps UK companies develop their online selling platforms.",
       "location": "Remote",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "requirements": [
         "Excel",
         "word",
         "access"
-      ]
+      ],
+      "salary": "3,000"
+
     },
     {
       "id": 6,
@@ -72,11 +86,14 @@
       "company": "ICEA LION",
       "description": "Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology",
       "location": "Nairobi",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "requirements": [
         "Ruby",
         "R",
         "Javascript"
-      ]
+      ],
+      "salary": "4,000"
+
     },
     {
       "job_type": "Design manufacturer",
@@ -84,25 +101,33 @@
       "company": "Google",
       "description": "Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology ",
       "location": "Nairobi",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "requirements": [
         "Ruby",
         "R",
         "Javascript"
       ],
-      "id": 7
+      "id": 7,
+      "salary": "4,500"
+
     },
     {
       "job_type": "Tutor",
-      "image": "data:image/jpeg;base64,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",
+      "image": "https://www.jkuat.ac.ke/centres/nakuru/wp-content/uploads/2018/02/jkuat-logo.png",
       "company": "JKUAT",
       "description": "Lecturer Programming Languages",
       "location": "Juja",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "requirements": [
         "Ruby",
         "Python",
         "Go"
       ],
-      "id": 8
+      "id": 8,
+      "salary": "400"
+
     },
     {
       "job_type": "iOS Developer",
@@ -110,6 +135,8 @@
       "company": "Digital-Moneybox-Limited-iOS-Developer",
       "description": "",
       "location": "London",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "requirements": "",
       "id": 9,
       "salary": "45,000"
@@ -121,6 +148,8 @@
       "description": "",
       "requirements": "",
       "location": "Barley ,London",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "salary": "35,000",
       "id": 10
     },
@@ -141,6 +170,8 @@
       "description": "",
       "requirements": "",
       "location": "Hatfields ,London",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "salary": "42,000",
       "id": 11
     },
@@ -161,6 +192,8 @@
       "description": "",
       "requirements": "",
       "location": "Dollywaggon Way, Preston",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "salary": "30,000",
       "id": 13
     },
@@ -181,6 +214,8 @@
       "description": "",
       "requirements": "",
       "location": "Nicosia, Cyprus",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "salary": "58,000",
       "id": "15"
     },
@@ -201,6 +236,8 @@
       "description": "",
       "requirements": "",
       "location": "FA 100, OH, USA",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "salary": "34,000",
       "id": "17"
     },
@@ -221,6 +258,8 @@
       "description": "",
       "requirements": "",
       "location": "FA 280, OH, USA",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "salary": "28,000",
       "id": "19"
     },
@@ -230,7 +269,9 @@
       "company": "Skipp.dev",
       "description": "",
       "requirements": "",
-      "location": "",
+      "location": "Chelsea",
+      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
+
       "salary": "44,000",
       "id": "20"
     }

@@ -1,17 +1,25 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect } from "react";
 import "./Jobs.css";
 import CreateJob from "../CreateJob/CreateJob";
 import JobList from  "../JobList/JobList";
 
 
+
 export default function Jobs() {
   //dispalying either jobform or jobs
 const [disp ,SetDisp]=useState(false)
+const [jobs, setJobs] = useState([]);
+console.log(jobs)
 
 function handleDisplay(){
 SetDisp(!disp)
 
 }
+useEffect(() => {
+  fetch("http://localhost:3000/jobs")
+    .then((r) => r.json())
+    .then((data) => setJobs(data));
+}, []);
 
   const Search = (
     <div class="container m-3 ">
@@ -46,7 +54,7 @@ SetDisp(!disp)
         </button>
       </div>
       {Search}
-      {disp ? <CreateJob/>:<JobList/>}
+      {disp ? <CreateJob/>:<JobList jobs={jobs}/>}
     </div>
   );
 }
