@@ -16,7 +16,10 @@ SetDisp(!disp)
 
 }
 
-
+function handleNew(newjob){
+  console.log(newjob)
+  setJobs(...jobs, newjob)
+}
 useEffect(() => {
   fetch("http://localhost:3000/jobs")
     .then((r) => r.json())
@@ -56,7 +59,7 @@ useEffect(() => {
         </button>
       </div>
       {Search}
-      {disp ? <CreateJob/>:<JobList jobs={jobs} />}
+      {disp ? <CreateJob handleNew={handleNew}/>:<JobList jobs={jobs} />}
     </div>
   );
 }

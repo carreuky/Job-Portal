@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import "./CreateJob.css";
 
-function CreateJob () {
+function CreateJob ({handleNew}) {
 
   const[job, setJob]=useState('')
   const[url,setUrl]=useState('')
@@ -51,7 +51,7 @@ function CreateJob () {
   })
     .then((r) => r.json())
     .then((newjob) => {
-      console(newjob)
+      handleNew(newjob)
     setJob('')
     setUrl('')
     setLocation('')
