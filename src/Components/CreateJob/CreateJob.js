@@ -42,7 +42,7 @@ function CreateJob ({handleNew}) {
     }
 
     console.log(newItem)
-    fetch('http://localhost:3000/jobs', {
+    fetch('https://jbap.herokuapp.com/jobs', {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

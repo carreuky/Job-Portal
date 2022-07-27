@@ -21,7 +21,7 @@ function handleNew(newjob){
   setJobs(...jobs, newjob)
 }
 useEffect(() => {
-  fetch("http://localhost:3000/jobs")
+  fetch("https://jbap.herokuapp.com/jobs")
     .then((r) => r.json())
     .then((data) => setJobs(data));
 }, []);
