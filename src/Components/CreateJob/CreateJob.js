@@ -9,25 +9,25 @@ function CreateJob({ handleNew, handleDisplay }) {
   const [company, setCompany] = useState("");
 
   function handleJob(event) {
-    console.log(event.target.value)
+    // console.log(event.target.value)
     setJob(event.target.value);
   }
   function handleUrl(event) {
-    console.log(event.target.value)
+    // console.log(event.target.value)
     setUrl(event.target.value);
   }
 
   function handleSalary(event) {
-    console.log(event.target.value)
+    // console.log(event.target.value)
     setSalary(event.target.value);
   }
 
   function handleLocation(event) {
-    console.log(event.target.value)
+    // console.log(event.target.value)
     setLocation(event.target.value);
   }
   function handleCompany(event) {
-    console.log(event.target.value)
+    // console.log(event.target.value)
     setCompany(event.target.value);
   }
 
@@ -35,11 +35,11 @@ function CreateJob({ handleNew, handleDisplay }) {
     e.preventDefault();
     console.log(job);
     const newItem = {
-      "job_type": job,
-      "company": company,
-      "image": url,
-      "salary": salary,
-      "location": location,
+      job_type: job,
+      company: company,
+      image: url,
+      salary: salary,
+      location: location,
     };
 
     console.log(newItem);
@@ -53,11 +53,11 @@ function CreateJob({ handleNew, handleDisplay }) {
       .then((r) => r.json())
       .then((newjob) => {
         handleNew(newjob);
-        setJob('')
-        setUrl('')
-        setLocation('')
-        setCompany('')
-        setSalary('')
+        setJob("");
+        setUrl("");
+        setLocation("");
+        setCompany("");
+        setSalary("");
       });
 
     handleDisplay();

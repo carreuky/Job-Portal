@@ -1,53 +1,72 @@
-import React, { useState ,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Jobs.css";
 import CreateJob from "../CreateJob/CreateJob";
-import JobList from  "../JobList/JobList";
-
-
+import JobList from "../JobList/JobList";
 
 export default function Jobs() {
   //dispalying either jobform or jobs
-const [disp ,SetDisp]=useState(false)
-const [jobs, setJobs] = useState([]);
-// console.log(jobs)
+  const [disp, SetDisp] = useState(false);
+  const [jobs, setJobs] = useState([]);
+  const [unMutatedJobs, setUnMutatedJobs] = useState([]);
+  // console.log(jobs)
 
-function handleDisplay(){
-SetDisp(!disp)
+  function handleDisplay() {
+    SetDisp(!disp);
+  }
 
-}
+  function handleNew(newjob) {
+    console.log(newjob);
+    setJobs([...jobs, newjob]);
+  }
+  function deleteJob(id) {
+    const updatedJob = jobs.filter((job) => job.id !== id);
+    setJobs(updatedJob);
+  }
 
-function handleNew(newjob){
-  console.log(newjob)
-  setJobs([...jobs, newjob])
-}
-function deleteJob(id) {
-  const updatedJob = jobs.filter(job => job.id !== id)
-  setJobs(updatedJob)
-}
-useEffect(() => {
-  fetch("https://jbap.herokuapp.com/jobs")
-    .then((r) => r.json())
-    .then((data) => {
-    // console.log(data)
-    setJobs(data)});
-}, []);
+  function searchHandle(value) {
+    const searchedJobs = unMutatedJobs.filter((jobed) =>
+      jobed.company.toLowerCase().includes(value.toLowerCase())
+    );
+    setJobs(searchedJobs);
+  }
+  useEffect(() => {
+    fetch("https://jbap.herokuapp.com/jobs")
+      .then((r) => r.json())
+      .then((data) => {
+        // console.log(data)
+        setJobs(data);
+        setUnMutatedJobs(data);
+      });
+  }, []);
 
   const Search = (
     <div className="container m-3 ">
-    <div className="d-flex justify-content-center text-center  ">
-    <div className="">
-            <form  className="form ">
-                <div className="d-inline">
-                <button onClick={handleDisplay} type="button" className="btn btn-primary">{disp?'View Jobs':'Create Job'}</button>
+      <div className="d-flex justify-content-center text-center  ">
+        <div className="">
+          <form className="form">
+            <div className="d-inline">
+              <button
+                onClick={handleDisplay}
+                type="button"
+                className="btn btn-primary"
+              >
+                {disp ? "View Jobs" : "Create Job"}
+              </button>
 
-                <input type="text" className="input-lg inpuS py-3" placeholder="Search" />
-                    <button type="submit" className="btnsearch "><i className="icon-search"></i></button>
-                </div>
-            </form>
+              <input
+                onChange={(event) => searchHandle(event.target.value)}
+                type="text"
+                className="input-lg inpuS py-3"
+                placeholder="Search Job"
+              />
+              <button type="submit" className="btnsearch ">
+                <i className="icon-search"></i>
+              </button>
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-  </div>
-
   );
 
   return (
@@ -65,7 +84,11 @@ useEffect(() => {
         </button>
       </div>
       {Search}
-      {disp ? <CreateJob handleNew={handleNew} handleDisplay={handleDisplay}/>:<JobList jobs={jobs} handleDelete={deleteJob}/>}
+      {disp ? (
+        <CreateJob handleNew={handleNew} handleDisplay={handleDisplay} />
+      ) : (
+        <JobList jobs={jobs} handleDelete={deleteJob} />
+      )}
     </div>
   );
 }
