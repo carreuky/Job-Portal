@@ -1,23 +1,48 @@
 import React from 'react'
 import "./CreateJob.css";
 
-function CreateJob
-() {
+function CreateJob () {
+  function handleChange(event){
+
+    console.log([event.target.name], event.target.value)
+
+
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    // alert('')
+    // const itemData = {
+    //   name: name,
+    //   category: category,
+    //   isInCart: false,
+    // };
+    // fetch("http://localhost:4000/items", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify(itemData),
+    // })
+    //   .then((r) => r.json())
+    //   .then((newItem) => console.log(newItem));
+  }
+
 const CreateJob=(
     <div class="form-style-8" id="formDiv">
     <h2>Create A New Job Posting</h2>
-    <form id="formClick">
-      <input className='input-lg' type="text" id="input1" name="field1" placeholder="Company Name"/>
-      <input className='input-lg' type="text" id="input2" name="field1" placeholder="Job Type"/>
-      <input className='input-lg' type="text" id="input3" name="field2" placeholder="Job Description" />
-      <input className='input-lg' type="url" id="input4" name="field3" placeholder="Image url"/>
-      <input className='input-lg' type="text" id="input5" name="field3" placeholder="Location"/>
-      <input className='input-lg' type="text" id="input6" name="field3" placeholder="Skill 1"/>
-      <input className='input-lg' type="text" id="input7" name="field3" placeholder="Skill 2"/>
-      <input className='input-lg' type="text" id="input8" name="field3" placeholder="Skill 3"/>
+    <form id="formClick" onSubmit={handleSubmit}>
+      <input onChange={handleChange} className='input-lg' type="text"  name="company" placeholder="Company Name"/>
+      <input onChange={handleChange} className='input-lg' type="text"  name="job" placeholder="Job Type"/>
+      <input onChange={handleChange} className='input-lg' type="url"  name="url" placeholder="Image url"/>
+      <input onChange={handleChange} className='input-lg' type="text"  name="location" placeholder="Location"/>
+      <input onChange={handleChange} className='input-lg' type="text"  name="salary" placeholder="Salary"/>
 
 
-      <input type="submit" value="Submit" name="submit" id="submit" />
+    
+
+
+      <input  type="submit" value="Submit" name="submit" id="submit" />
     </form>
   </div>
 )

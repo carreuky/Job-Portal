@@ -5,129 +5,71 @@
       "job_type": "Design Engineer",
       "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
       "company": "Google",
-      "description": "Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology ",
       "location": "Nairobi",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-      "requirements": [
-        "Ruby",
-        "R",
-        "Javascript"
-      ],
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "5,100"
-
     },
     {
       "id": 2,
       "job_type": "Backend Engineer",
       "image": "https://i.roamcdn.net/kazi/ke/hq/910055825a6b1fcd5d5fa8ca61bc6824/-/advertiser-img-ke-jobs-prod/dealer-images/advid15044/adv15044_1613054515.jpg",
       "company": "Eclectics International Ltd",
-      "description": "We are looking for experienced backend developers to join our team and be a productive member of societu",
       "location": "Nairobi",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-      "requirements": [
-        "node",
-        "python",
-        "Javascript"
-      ],
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "2,800"
-
     },
     {
       "id": 3,
       "job_type": "Junior java developer",
       "image": "https://i.roamcdn.net/kazi/ke/hq/0fe19d4a945bd62c51fd605065cd3a64/-/advertiser-img-ke-jobs-prod/dealer-images/advid7366/adv7366_1509458147.jpg",
       "company": "MSpace Solutions Ltd",
-      "description": "MSpace Solutions Ltd is looking for a candidate to add to their Innovation Team as a Junior Java Web Application Developer",
       "location": "Nairobi",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-      "requirements": [
-        "Ruby",
-        "java",
-        "Javascript",
-        "python"
-      ],
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "3,300"
-
     },
     {
       "id": 4,
       "job_type": "Senior .NET Developer",
       "image": "https://i.roamcdn.net/kazi/ke/hq/5399baaf49abff1b9724ab2bc97ff6b3/-/advertiser-img-ke-jobs-prod/dealer-images/advid17327/adv17327_1502683950.jpg",
       "company": "Wise & Agile Solutions Ltd",
-      "description": "We are looking for energetic, progressive, indepedent, all-rounder DotNet developer for Full-time.",
       "location": "Remote",
-      "requirements": [
-        "DotNet",
-        "Javascript"
-      ],
       "salary": "3,500"
-
     },
     {
       "id": 5,
       "job_type": "Microsoft Excel Expert / Problem Solver",
       "image": "https://i.roamcdn.net/kazi/ke/hq/9d017bed4ff1ea0e9f507b1c840903d9/-/advertiser-img-ke-jobs-prod/dealer-images/advid278394/adv278394_1654783727.jpg",
       "company": "e-MPS",
-      "description": "We are an online e-commerce team which helps UK companies develop their online selling platforms.",
       "location": "Remote",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-      "requirements": [
-        "Excel",
-        "word",
-        "access"
-      ],
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "3,000"
-
     },
     {
       "id": 6,
       "job_type": "Design Engineer",
       "image": "https://i.roamcdn.net/kazi/ke/hq/0343593c5972a3175ded80902e5a6b63/-/advertiser-img-ke-jobs-prod/dealer-images/advid8713/adv8713_1482146740.jpg",
       "company": "ICEA LION",
-      "description": "Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology",
       "location": "Nairobi",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-      "requirements": [
-        "Ruby",
-        "R",
-        "Javascript"
-      ],
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "4,000"
-
     },
     {
       "job_type": "Design manufacturer",
       "image": "https://www.google.co.ke/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
       "company": "Google",
-      "description": "Deliver software development projects using Agile, specifically SAFe (Scaled Agile Framework) development methodology ",
       "location": "Nairobi",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
-      "requirements": [
-        "Ruby",
-        "R",
-        "Javascript"
-      ],
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "id": 7,
       "salary": "4,500"
-
     },
     {
       "job_type": "Tutor",
       "image": "https://www.jkuat.ac.ke/centres/nakuru/wp-content/uploads/2018/02/jkuat-logo.png",
       "company": "JKUAT",
-      "description": "Lecturer Programming Languages",
       "location": "Juja",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
-      "requirements": [
-        "Ruby",
-        "Python",
-        "Go"
-      ],
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "id": 8,
       "salary": "400"
-
     },
     {
       "job_type": "iOS Developer",
@@ -135,9 +77,7 @@
       "company": "Digital-Moneybox-Limited-iOS-Developer",
       "description": "",
       "location": "London",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
-      "requirements": "",
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "id": 9,
       "salary": "45,000"
     },
@@ -145,11 +85,8 @@
       "job_type": "Web AR Developer",
       "image": "https://static.devitjobs.uk/logo-images/zappar-logo.jpg",
       "company": "Zappar",
-      "description": "",
-      "requirements": "",
       "location": "Barley ,London",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "35,000",
       "id": 10
     },
@@ -158,7 +95,6 @@
       "image": "https://static.devitjobs.uk/logo-images/digital-moneybox-limited-logo.jpg",
       "company": "Moneybox Limited",
       "description": "",
-      "requirements": "",
       "location": "Hatfields ,London",
       "salary": "42,000",
       "id": 11
@@ -168,10 +104,8 @@
       "image": "https://static.devitjobs.uk/logo-images/digital-moneybox-limited-logo.jpg",
       "company": "Cloud Apps",
       "description": "",
-      "requirements": "",
       "location": "Hatfields ,London",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "42,000",
       "id": 11
     },
@@ -180,7 +114,6 @@
       "image": "https://static.devitjobs.uk/logo-images/healthyhealth-group-ltd-logo.jpg",
       "company": "HealthyHealth Group Ltd",
       "description": "",
-      "requirements": "",
       "location": "Dufferin Street, London",
       "salary": "49,000",
       "id": 12
@@ -190,10 +123,8 @@
       "image": "https://static.devitjobs.uk/logo-images/viddyoze-logo.jpg",
       "company": "",
       "description": "",
-      "requirements": "",
       "location": "Dollywaggon Way, Preston",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "30,000",
       "id": 13
     },
@@ -201,8 +132,6 @@
       "job_type": "Senior Software Engineer",
       "image": "https://static.devitjobs.uk/logo-images/chordata-limited-logo.jpg",
       "company": "Chordata Limited",
-      "description": "",
-      "requirements": "",
       "location": "Nigeria",
       "salary": "5,200",
       "id": 14
@@ -211,11 +140,8 @@
       "job_type": "Middle Frontend Developer",
       "image": "https://static.devitjobs.uk/logo-images/skippdev-logo.jpg",
       "company": "Skipp.dev",
-      "description": "",
-      "requirements": "",
       "location": "Nicosia, Cyprus",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "58,000",
       "id": "15"
     },
@@ -223,8 +149,6 @@
       "job_type": "Front End Engineer",
       "image": "https://static.devitjobs.uk/logo-images/access-pay-logo.jpg",
       "company": "AccessPay",
-      "description": "",
-      "requirements": "",
       "location": "Manchester",
       "salary": "55,000",
       "id": "16"
@@ -233,11 +157,8 @@
       "job_type": "IT Support",
       "image": "https://img.icons8.com/color/96/000000/google-logo.png",
       "company": "Google Inc",
-      "description": "",
-      "requirements": "",
       "location": "FA 100, OH, USA",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "34,000",
       "id": "17"
     },
@@ -245,8 +166,6 @@
       "job_type": "UX Designer",
       "image": "https://img.icons8.com/fluent/48/000000/instagram-new.png",
       "company": "Instagram Inc",
-      "description": "",
-      "requirements": "",
       "location": "FA 400, OH, USA",
       "salary": "39,000",
       "id": "18"
@@ -255,11 +174,8 @@
       "job_type": "UI Designer",
       "image": "https://img.icons8.com/officel/80/000000/dribbble.png",
       "company": "Dribbble Inc",
-      "description": "",
-      "requirements": "",
       "location": "FA 280, OH, USA",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "28,000",
       "id": "19"
     },
@@ -267,11 +183,8 @@
       "job_type": "QA Developer",
       "image": "https://static.devitjobs.uk/logo-images/skippdev-logo.jpg",
       "company": "Skipp.dev",
-      "description": "",
-      "requirements": "",
       "location": "Chelsea",
-      "url":"https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
-
+      "url": "https://www.google.com/about/careers/applications-a/apply/f0528f5f-1071-4574-9320-141d3c5e349b/form",
       "salary": "44,000",
       "id": "20"
     }

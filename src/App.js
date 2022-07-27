@@ -1,4 +1,5 @@
 import './App.css';
+import {React,useEffect} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Components/NavBar/NavBar';
 import Home from './Components/Home/Home';
@@ -8,6 +9,13 @@ import Contacts from './Components/Contacts/Contacts';
 import SignIn from './Components/SIgnIn/SignIn';
 
 function App() {
+
+  function useDocumentTitle() {
+    useEffect(() => {
+      document.title = "Jobs";
+    }, []);
+  }
+  useDocumentTitle()
   return (
     <div className="App">
      <NavBar />
