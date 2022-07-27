@@ -23,7 +23,9 @@ function handleNew(newjob){
 useEffect(() => {
   fetch("https://jbap.herokuapp.com/jobs")
     .then((r) => r.json())
-    .then((data) => setJobs(data));
+    .then((data) => {
+    console.log(data)
+    setJobs(data)});
 }, []);
 
   const Search = (
@@ -46,10 +48,10 @@ useEffect(() => {
 
   return (
     <div className="Jobs p-2">
-      <h1 class="text-center bg-primary sea">Search Jobs in Kenya</h1>
+      <h1 class="text-center  sea">Search Jobs in Kenya</h1>
       <div className="text-center">
         <button type="button" class="btn btn-primary btn-sm mx-2">
-          Jobs in Kenya
+          Jobs in Nairobi
         </button>
         <button type="button" class="btn btn-primary btn-sm mx-2">
           Jobs in Africa

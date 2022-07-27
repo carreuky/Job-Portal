@@ -20,7 +20,7 @@
     border: none;
 }
 .btnsearch{
-    background-color: #0B5ED7;
+    background-color:greenyellow;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border: none;
@@ -29,9 +29,11 @@
 
 }
 .d-inline > .btn{
+    color: black;
+    border:none;
+    background: greenyellow;
     margin-bottom: 10px;
     margin-right: 50px;
-    background-color: #0B5ED7;
 
 
 }

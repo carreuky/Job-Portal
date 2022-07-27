@@ -3,7 +3,7 @@ import "./SignIn.css";
 
 export default function SignIn() {
   const Login = (
-    <div class=" div-center w-35 p-3">
+    <div class=" div-center row w-35 p-3">
       <div class="border border-primary p-4 content text-white">
         <h3>Login</h3>
         <hr />
@@ -30,10 +30,10 @@ export default function SignIn() {
             Login
           </button>
           <hr />
-          <button type="button" class="btn btn-link">
+          <button type="button" class="btn btn-link text-white">
             Signup
           </button>
-          <button type="button" class="btn btn-link">
+          <button type="button" class="btn btn-link text-white">
             Reset Password
           </button>
         </form>

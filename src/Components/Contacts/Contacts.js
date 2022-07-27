@@ -31,7 +31,7 @@ const Contact=
                                             <textarea rows="6" name="message2" id="message2" class="form-control" required=""></textarea>
                                         </div>
                                     </div>
-                                    <button class="btn btn-primary">Send Message</button>
+                                    <button class="btnk">Send Message</button>
                               
                             </form>
                         </div>
@@ -42,8 +42,8 @@ const Contact=
 </div>
   return (
     <div className='Contacts p-5'>
-      <div className='center  '><h1>CONTACT US</h1></div>
-      <div className='Flex'>
+      <div className='center '><h1>CONTACT US</h1></div>
+      <div className='di col-sm Flex'>
     <div>
       <div className='border mine w-70 p-3'>
         <p className='center '>Powered by industry-leading digital technology & a data-driven approach, we help employers across industries find the 
@@ -56,6 +56,7 @@ const Contact=
       <i class="fab fa-instagram"></i>
       </div>
       </div>
+
       {Contact}
 
       </div>
