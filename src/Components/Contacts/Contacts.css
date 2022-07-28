@@ -27,6 +27,9 @@ display: flex;
     background-color:rgb(2, 22, 54)
 
 }
+.contactForm{
+    width:110%;
+}
 .socials{
     margin-top: 30px;
     width: 250px;
@@ -60,6 +63,6 @@ display: flex;
     }
     .Contacts{
         height: 200vh;
-
     }
+  
 }

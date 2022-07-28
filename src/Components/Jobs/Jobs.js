@@ -24,8 +24,11 @@ export default function Jobs() {
   }
 
   function searchHandle(value) {
-    const searchedJobs = unMutatedJobs.filter((jobed) =>
-      jobed.company.toLowerCase().includes(value.toLowerCase())
+    const searchedJobs = unMutatedJobs.filter(
+      (jobed) =>
+        jobed.location.toLowerCase().includes(value.toLowerCase()) ||
+        jobed.company.toLowerCase().includes(value.toLowerCase()) ||
+        jobed.job_type.toLowerCase().includes(value.toLowerCase())
     );
     setJobs(searchedJobs);
   }
@@ -71,7 +74,7 @@ export default function Jobs() {
 
   return (
     <div className="Jobs p-2">
-      <h1 className="text-center  sea">Search Jobs in Company of Choice </h1>
+      <p className="text-center  sea">Search Jobs in Company of Choice </p>
       {/* <div className="text-center">
         <button type="button" className="btn btn-primary btn-sm mx-2">
           Jobs in Nairobi
@@ -86,7 +89,7 @@ export default function Jobs() {
       {Search}
       {disp ? (
         <CreateJob handleNew={handleNew} handleDisplay={handleDisplay} />
-      ) : (                   
+      ) : (
         <JobList jobs={jobs} handleDelete={deleteJob} />
       )}
     </div>

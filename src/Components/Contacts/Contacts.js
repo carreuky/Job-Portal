@@ -3,8 +3,8 @@ import "./Contacts.css";
 
 export default function Contacts() {
   const Contact = (
-    <div className="content py-3 w-75 text-white ">
-      <div className="row">
+    <div className="contactForm content py-3  text-white ">
+      <div className="">
         <div className="col-md-6 offset-md-3">
           <div className="Form card border">
             <div className="card-body">

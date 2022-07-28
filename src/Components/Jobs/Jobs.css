@@ -3,7 +3,7 @@
     font-family: 'Nunito Sans', sans-serif;
     background: rgb(2, 22, 54);
     /* height: 100vh; */
-    color: wheat;
+    color: white;
 }
 #inputlg{
     margin-left: 100px;
@@ -27,6 +27,10 @@
     padding: 5px 10px;
     margin-bottom: 10px;
 
+}
+.sea{
+    font-size: larger;
+    font-weight: bolder;
 }
 .d-inline > .btn{
     color: black;
