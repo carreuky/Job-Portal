@@ -1,12 +1,10 @@
-# JobsPortal
+# Jobs Seekers
 
-#### Created By Kelvin Nderitu on 24-07-2022
-
-
+#### Created By Kelvin Nderitu on 28-07-2022
 
 ## Description
 
-Jobs Portal is a a website that provides a way to create, delete and retrieve jobs.
+Jobs Seekers is a website that provides a way to create, delete and retrieve jobs. Reduces the hustle of job applicants access websites of their desired companies to work for.
 
 ## Setup Requirements
 
@@ -18,19 +16,19 @@ Jobs Portal is a a website that provides a way to create, delete and retrieve jo
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is the is how you can install and setup my app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git@github.com:carreuky/Job-Portal.git
+   git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
 
 <!-- USAGE EXAMPLES -->
+
 ## Technologies Used
 
 The following have been used on this project:
@@ -40,21 +38,17 @@ The following have been used on this project:
 - Bootstrap
 - React JS
 
-
-
 #### Live link to view the project <a href="https://drive.google.com/file/d/1LGem62hwxZxwGbvzhkbdNgb_6cAf8Oqa/view?usp=sharing">View Jobs Portal</a>
 
-
-
-## Screenshots Of the Figma Design
+## Screenshots of the Web Application
 
 - Homepage
 
-  <img src="https://drive.google.com/file/d/1u6viDOzejF8SRhYwTk5Dcd8FHoWJTucA/view?usp=sharing" alt="screenshot" />
+  <img src="./public/images/jb.png" alt="screenshot" />
 
 - Job Details
 
-  <img src="https://drive.google.com/file/d/1NFDFL-OrFzD4FFOpw8yWMkqBy3O1xEnn/view?usp=sharing" alt="screenshot" />
+  <img src="./public/images/jb1.png" alt="screenshot" />
 
 <!-- - Create Job Form Page
 
@@ -84,7 +78,7 @@ To make a contribution to the code used or any suggestions you can click on the 
 
 ## License
 
-Copyright (c) 2022 Wilson Kinyua Muthoni.
+Copyright (c) 2022 Kelvin Nderitu.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files , to deal
