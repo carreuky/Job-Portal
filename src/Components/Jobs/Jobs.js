@@ -71,8 +71,8 @@ export default function Jobs() {
 
   return (
     <div className="Jobs p-2">
-      <h1 className="text-center  sea">Search Jobs in Kenya</h1>
-      <div className="text-center">
+      <h1 className="text-center  sea">Search Jobs in Company of Choice </h1>
+      {/* <div className="text-center">
         <button type="button" className="btn btn-primary btn-sm mx-2">
           Jobs in Nairobi
         </button>
@@ -82,11 +82,11 @@ export default function Jobs() {
         <button type="button" className="rr btn btn-primary btn-sm mx-2">
           Jobs Abroad
         </button>
-      </div>
+      </div> */}
       {Search}
       {disp ? (
         <CreateJob handleNew={handleNew} handleDisplay={handleDisplay} />
-      ) : (
+      ) : (                   
         <JobList jobs={jobs} handleDelete={deleteJob} />
       )}
     </div>
