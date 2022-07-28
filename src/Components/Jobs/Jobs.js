@@ -79,7 +79,7 @@ export default function Jobs() {
         <button type="button" className="btn btn-primary btn-sm mx-2">
           Jobs in Africa
         </button>
-        <button type="button" className="btn btn-primary btn-sm mx-2">
+        <button type="button" className="rr btn btn-primary btn-sm mx-2">
           Jobs Abroad
         </button>
       </div>

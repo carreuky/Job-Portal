@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 .Jobs{
     font-family: 'Nunito Sans', sans-serif;
-    background: rgb(16, 15, 15);
+    background: rgb(2, 22, 54);
     /* height: 100vh; */
     color: wheat;
 }
@@ -36,4 +36,9 @@
     margin-right: 50px;
 
 
+}
+@media screen and (max-width: 602px) {
+    .rr{
+        margin-top: 6px;
+    }
 }

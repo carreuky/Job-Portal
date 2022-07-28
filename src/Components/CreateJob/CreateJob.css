@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 .CreateJob{
     font-family: 'Nunito Sans', sans-serif;
-    background: rgb(16, 15, 15);
+    background: rgb(2, 22, 54);
     height: 88vh;
     margin: 0px;
 }
@@ -17,7 +17,7 @@
   
   }
   .form-style-8 h2{
-      background: #0B5ED7;
+      background:rgb(2, 22, 54);
       text-transform: uppercase;
       color: #aba4a4;
       font-size: 18px;

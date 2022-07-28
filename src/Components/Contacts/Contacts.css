@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 .Contacts{
     font-family: 'Nunito Sans', sans-serif;
-    background-color: rgb(16, 15, 15);
+    background-color: rgb(2, 22, 54);
     height: 93vh    ;
     color: white;
     
@@ -17,14 +17,14 @@ display: flex;
     justify-content: center;
 }
 .mine{
-    background-color: rgb(16, 15, 15);
+    background-color: rgb(2, 22, 54);
     width: 250px;
     height: 230px;
     margin-left: 200px;
     margin-top: 30px;
 }
 .Form{
-    background-color: rgb(16, 15, 15);
+    background-color:rgb(2, 22, 54)
 
 }
 .socials{
@@ -55,7 +55,7 @@ display: flex;
         
     }
     .socials , .mine{
-        margin-left: 15px;
+        margin-left: 0px;
     }
     .Contacts{
         height: 200vh;
