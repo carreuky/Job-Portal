@@ -35,15 +35,16 @@ display: flex;
 
 }
 .socials .fab{
-    color:blue;
+    color:greenyellow;
     padding:15px;
     font-size: 28px;
 }
 .socials .fab:hover{
     transform: scale(1.5);
+    color: greenyellow;
 }
 .btnk{
-    background: blue;
+    background: greenyellow;
     border-radius: 5px;
     border: none;
 }

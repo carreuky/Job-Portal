@@ -2,15 +2,16 @@
 
 .Nav{
     font-family: 'Nunito Sans', sans-serif;
-    background-color: rgb(6, 1, 1);
+    background-color: rgb(2, 22, 54);
     font-size: 21px;
-    color: blue;
+    color: white;
 }
 .Nav ul li a:hover{
-border: 1px solid blue;
+border: 1px solid yellowgreen;
 color: white;
 background: none;
 }
 .Nav ul li a{
 background: none;
+color: white;
 }
